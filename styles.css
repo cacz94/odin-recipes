@@ -1,2 +1,33 @@
 /* Styles */
 
+/* General */
+
+body{
+
+    background-color: #FAF7F0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #4A4947;
+    background-color: #D8D2C2;
+    font-size: larger;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* Classes */
+.title_base{
+    font-size: 78px;;
+    color: #B17457;
+}
+
+
+.text_base{
+    font-size: 30px;
+    color: #4A4947;
+}
