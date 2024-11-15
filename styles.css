@@ -10,7 +10,7 @@ body{
 
 a{
     text-decoration: none;
-    color: #4A4947;
+    color: #B17457;
     background-color: #D8D2C2;
     font-size: larger;
 }
@@ -30,4 +30,16 @@ ul{
 .text_base{
     font-size: 30px;
     color: #4A4947;
+}
+
+.card{
+    /* reference: https://www.w3schools.com/howto/howto_css_cards.asp */
+    box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    background-color: #4A4947;
+}
+
+.card:hover{
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.2);
+    background-color: #B17457;
 }
